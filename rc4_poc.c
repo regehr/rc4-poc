@@ -13,7 +13,7 @@
 struct stuff {
   unsigned char data[data_len];
   int important;
-} *src, *dst;
+} * src, *dst;
 
 volatile int stop = 0;
 
